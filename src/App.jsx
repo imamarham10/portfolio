@@ -1,7 +1,7 @@
 import "./app.scss";
 import Navbar from "./components/navbar/Navbar";
 import Intro from "./components/introduction/Intro";
-import Parallax from "./components/Parallax/parallax";
+import Parallax from "./components/parallax/Parallax";
 import Services from "./components/services/Services";
 import Skills from "./components/skills/Skills";
 import Contact from "./components/contact/Contact";
@@ -23,13 +23,13 @@ const App = () => {
       <section id="What I know">
         <Parallax type="portfolio" />
       </section>
-      {/* <section id="Skills">
+      <section id="Skills">
         <Skills />
-      </section> */}
-      {/* <section><Parallax/></section> */}
-      {/* <section id="Contact">
+      </section>
+      <section><Parallax/></section>
+      <section id="Contact">
         <Contact />
-      </section> */}
+      </section>
     </div>
   );
 };
