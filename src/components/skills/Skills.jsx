@@ -32,7 +32,7 @@ const Skills = () => {
       <motion.div className="listContainer" variants={variants}>
         <motion.div
           className="box"
-          whileHover={{ backgroundColor: "lightGray", color: "black" }}
+          whileHover={{ backgroundColor: "#1f1f4b", color: "black" }}
         >
           <motion.h2>Frontend</motion.h2>
           <div className="skills-box">
@@ -48,7 +48,7 @@ const Skills = () => {
         </motion.div>
         <motion.div
           className="box"
-          whileHover={{ backgroundColor: "lightGray", color: "black" }}
+          whileHover={{ backgroundColor: "#1f1f4b", color: "black" }}
         >
           <h2>Backend</h2>
           <div className="skills-box">
@@ -60,7 +60,7 @@ const Skills = () => {
         </motion.div>
         <motion.div
           className="box"
-          whileHover={{ backgroundColor: "lightGray", color: "black" }}
+          whileHover={{ backgroundColor: "#1f1f4b", color: "black" }}
         >
           <h2>Database</h2>
           <div className="skills-box">
@@ -70,7 +70,7 @@ const Skills = () => {
         </motion.div>
         <motion.div
           className="box"
-          whileHover={{ backgroundColor: "lightGray", color: "black" }}
+          whileHover={{ backgroundColor: "#1f1f4b", color: "black" }}
         >
           <h2>Devops</h2>
           <div className="skills-box">
@@ -84,7 +84,7 @@ const Skills = () => {
         <a href="https://github.com/imamarham10/codepen-clone">
           <motion.div
             className="pro-box"
-            whileHover={{ backgroundColor: "lightGray", color: "black" }}
+            whileHover={{ backgroundColor: "#1f1f4b", color: "black" }}
           >
             <h2>Codepen Clone</h2>
             <div className="skills-box">
@@ -97,7 +97,7 @@ const Skills = () => {
         <a href="https://github.com/imamarham10/Kharcha-Book">
           <motion.div
             className="pro-box"
-            whileHover={{ backgroundColor: "lightGray", color: "black" }}
+            whileHover={{ backgroundColor: "#1f1f4b", color: "black" }}
           >
             <h2>Kharcha Book</h2>
             <div className="skills-box">
@@ -110,7 +110,7 @@ const Skills = () => {
         <a href="https://github.com/imamarham10/developersgram">
           <motion.div
             className="pro-box"
-            whileHover={{ backgroundColor: "lightGray", color: "black" }}
+            whileHover={{ backgroundColor: "#1f1f4b", color: "black" }}
           >
             <h2>Developersgram</h2>
             <div className="skills-box">
@@ -123,7 +123,7 @@ const Skills = () => {
         <a href="https://github.com/imamarham10/movie-api">
           <motion.div
             className="pro-box"
-            whileHover={{ backgroundColor: "lightGray", color: "black" }}
+            whileHover={{ backgroundColor: "#1f1f4b", color: "black" }}
           >
             <h2>Movie Api</h2>
             <div className="skills-box">

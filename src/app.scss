@@ -18,21 +18,21 @@ a {
 }
 section {
     height: 100vh;
-    scroll-snap-align: center;
+    scroll-snap-align:unset;
 }
 
-.course{
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+// .course{
+//     height: 100vh;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
 
-    .box{
-        width: 200px;
-        height: 200px;
-        background-color: #fff;
-    }
-}
+//     .box{
+//         width: 200px;
+//         height: 200px;
+//         background-color: #fff;
+//     }
+// }
 
 
 @mixin mobile{

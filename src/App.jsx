@@ -5,11 +5,9 @@ import Parallax from "./components/parallax/Parallax";
 import Services from "./components/services/Services";
 import Skills from "./components/skills/Skills";
 import Contact from "./components/contact/Contact";
-import Cursor from "./components/cursor/Cursor";
 const App = () => {
   return (
     <div>
-      {/* <Cursor /> */}
       <section id="Homepage">
         <Navbar />
         <Intro />
@@ -26,7 +24,7 @@ const App = () => {
       <section id="Skills">
         <Skills />
       </section>
-      <section><Parallax/></section>
+      {/* <section><Parallax type="contact"/></section> */}
       <section id="Contact">
         <Contact />
       </section>

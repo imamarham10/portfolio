@@ -33,7 +33,7 @@ const Services = () => {
       <motion.div className="listContainer" variants={variants}>
         <motion.div
           className="box"
-          whileHover={{ backgroundColor: "lightGray", color: "black" }}
+          whileHover={{ backgroundColor: "#1f1f4b", color: "white" }}
         >
           <a href="https://kick-pik.vercel.app/">
             <img src="/kickpik.png" alt="Kickpik" />
@@ -55,7 +55,7 @@ const Services = () => {
         </motion.div>
         <motion.div
           className="box"
-          whileHover={{ backgroundColor: "lightGray", color: "black" }}
+          whileHover={{ backgroundColor: "#1f1f4b", color: "white" }}
         >
           <a href="https://github.com/imamarham10/nazariya">
             <img src="/Nazariya.jpg" alt="Nazariya" />
@@ -74,7 +74,7 @@ const Services = () => {
 
         <motion.div
           className="box"
-          whileHover={{ backgroundColor: "lightGray", color: "black" }}
+          whileHover={{ backgroundColor: "#1f1f4b", color: "white" }}
         >
           <a href="https://web-utility-tools.netlify.app/index.html">
             <img src="/webUtility.jpeg" alt="web-utility application" />

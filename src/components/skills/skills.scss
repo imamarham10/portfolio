@@ -74,6 +74,17 @@
         }
     }
     .more-projects{
+    }
+    
+}
 
+@media (max-width: 475px) {
+    .skills{
+        .listContainer{
+            flex-direction: column;
+        }
+    }
+    .pro-box{
+        display: none;
     }
 }
