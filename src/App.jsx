@@ -5,27 +5,27 @@ import Parallax from "./components/parallax/Parallax";
 import Services from "./components/services/Services";
 import Skills from "./components/skills/Skills";
 import Contact from "./components/contact/Contact";
+
 const App = () => {
   return (
     <div>
+      {/* <Navbar /> */}
       <section id="Homepage">
-        <Navbar />
         <Intro />
       </section>
-      <section id="Project">
+      <section>
         <Parallax type="services" />
       </section>
-      <section>
+      <section id="Projects">
         <Services />
       </section>
-      <section id="What I know">
+      <section>
         <Parallax type="portfolio" />
       </section>
       <section id="Skills">
         <Skills />
       </section>
-      {/* <section><Parallax type="contact"/></section> */}
-      <section id="Contact">
+      <section id="contact">
         <Contact />
       </section>
     </div>

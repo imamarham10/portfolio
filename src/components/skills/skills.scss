@@ -73,8 +73,7 @@
             color: gray;
         }
     }
-    .more-projects{
-    }
+   
     
 }
 
@@ -82,7 +81,18 @@
     .skills{
         .listContainer{
             flex-direction: column;
+            flex-wrap: wrap;
+            .box{
+                width: 250px;
+                padding: 5px;
+                .skills-box{
+                    padding: 5px;
+                }
+            }
         }
+    }
+    .more-projects{
+        display: none;
     }
     .pro-box{
         display: none;

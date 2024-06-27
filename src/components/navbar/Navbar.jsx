@@ -11,7 +11,7 @@ const Navbar = () => {
         animate={{opacity:1,scale:1}}
         transition={{duration:0.5}}
         whileInView={{scale:1.25}}
-        >MERN DEV</motion.span>
+        >FULL STACK DEV</motion.span>
         <div className="social">
           <a href="https://github.com/imamarham10">
             <img src="/github.webp" />

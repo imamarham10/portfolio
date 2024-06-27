@@ -80,7 +80,7 @@ const Skills = () => {
       </motion.div>
       <motion.h2>More Projects</motion.h2>
 
-      <motion.div className="listContainer" variants={variants}>
+      <motion.div className="listContainer more-projects" variants={variants}>
         <a href="https://github.com/imamarham10/codepen-clone">
           <motion.div
             className="pro-box"
